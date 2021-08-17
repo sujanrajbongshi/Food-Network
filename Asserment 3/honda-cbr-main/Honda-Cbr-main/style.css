@@ -1,0 +1,60 @@
+
+.headerstyle{
+    background-color: #264653;
+    color:white; 
+    height: 700px;
+    padding-top: 155px;
+}
+.fontp{
+    font-family: 'Poppins', sans-serif; font-weight:300
+}
+.fonth1{
+    font-family: 'Poppins', sans-serif; font-weight:600;font-size: 64px;
+}
+.btn-color{
+    background: #E76F51;
+
+}
+@media only screen and (max-width: 600px) {
+    .headerstyle{
+    background-color: #264653;
+    color:white; 
+    height: 860px;
+    padding: 0;
+}
+.fonth1{
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size: 54px;
+}
+}
+.grayscale{
+    width: 100;
+}
+.mbs{
+    height: 243px;
+    width: 288px;
+}
+.grayscale{
+    filter: grayscale(100%)
+}
+.hcy{
+    width: 149px;
+    height: 149px;
+    border: none;
+}
+/* coustomer star color */
+.c-star{
+    color: rgb(234, 124, 64);
+}
+/* coustomer name color */
+.c-name{
+    color: rgb(145, 210, 247);
+    font-weight: bold;
+}
+.q-font{
+    font: ;
+}
+.questionbox{
+    border: 1px solid lightskyblue;
+}
